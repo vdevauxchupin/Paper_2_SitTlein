@@ -1,5 +1,7 @@
 # Code: Surges and debris cover cannot outpace melt and calving on Sít’ Tlein (Devaux-Chupin et al., The Cryosphere)
 
+Archived on Zenodo: https://doi.org/10.5281/zenodo.24509517 (code) and https://doi.org/10.5281/zenodo.24511550 (data). Please cite the archived versions.
+
 Notebooks and scripts that produce the ICESat-2 DEMs, elevation change rates, tables and figures of the paper (Python 3.12.8).
 
 ## Folder layout
