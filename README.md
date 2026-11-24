@@ -38,6 +38,7 @@ Run the notebooks in order from `Code_Paper/`, then the figure scripts from `Cod
 | `fig7.py` | Fig. 7, mass continuity per lobe | 06 |
 | `figS1.py` | Fig. S1, 2002–2012 velocity vs elevation change rate; also writes the velocity percentiles per surface cover | 02, 04, 06 |
 | `figS3_ndvi.py` | Fig. S3, NDVI vegetation change 1974–2024 | none |
+| `figS7_texture.py` | Fig. S7, 2002–2012 elevation change rate and zoom on the sinkhole texture | 02 |
 
 Figs. 1, 2, S2 and S4–S6 are maps or ITS_LIVE plots made outside this code.
 
