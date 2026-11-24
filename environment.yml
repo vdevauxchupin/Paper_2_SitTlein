@@ -1,0 +1,29 @@
+# Environment that ran the notebooks and scripts (conda env "GPR", Python 3.12.8, Linux).
+# Create with:  conda env create -f environment.yml
+name: sittlein-paper2
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.8
+  - xdem=0.1.0
+  - geoutils=0.1.12
+  - gdal=3.10.3
+  - rasterio=1.4.3
+  - geopandas=1.0.1
+  - pyproj=3.7.1
+  - xarray=2025.1.2
+  - netcdf4=1.7.2
+  - scipy=1.15.1
+  - numpy=1.26.4
+  - pandas=2.2.3
+  - matplotlib=3.10.0
+  - scikit-gstat=1.0.19
+  - scikit-learn=1.6.1
+  - pyarrow=19.0.0
+  - tqdm=4.67.1
+  - sliderule=4.16.0
+  - jupyter=1.1.1
+  - pip
+  - pip:
+      - shapely==2.0.7
+      - cmocean==4.0.3

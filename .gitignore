@@ -1,0 +1,5 @@
+_run_*.ipynb
+figures/output/
+__pycache__/
+.ipynb_checkpoints/
+.omc/
