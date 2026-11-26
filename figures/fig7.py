@@ -19,7 +19,7 @@ _full = df[(df.unit == "Lobe") & (df.period == "2022-1999")].iloc[0]
 smb_full, smb_full_sig = _full["CMB_m_a"], _full["sig_CMB_mixed_m_a"]
 print(f"SMB 1999-2022 (direct) = {smb_full:.2f} ± {smb_full_sig:.2f} m/a ice")
 
-dates_dems = pd.to_datetime(["1999-09-01", "2002-08-04", "2012-08-30", "2019-08-30", "2022-08-30"])
+dates_dems = pd.to_datetime(["1999-09-01", "2002-08-04", "2012-08-30", "2019-10-10", "2022-09-18"])
 periods = ["2002-1999", "2012-2002", "2019-2012", "2022-2019"]
 surge_periods = {"Agassiz": [("2001-02-01", "2002-11-01")],
                  "Seward": [("2008-05-01", "2009-05-01"), ("2020-05-01", "2021-09-01")],

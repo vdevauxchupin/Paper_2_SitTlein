@@ -18,7 +18,7 @@ FS_TICK, FS_LAB, FS_TITLE, FS_LEG = 14, 15, 16, 14
 YLIM = (-12, 10)
 t = pd.read_csv('../../Data_Paper/tables/surface_cover/table1_dhdt_mean.csv')
 PERIODS = ['2002-1999', '2012-2002', '2019-2012', '2022-2019']
-dates = pd.to_datetime(['1999-09-01', '2002-08-04', '2012-08-30', '2019-08-30', '2022-08-30'])
+dates = pd.to_datetime(['1999-09-01', '2002-08-04', '2012-08-30', '2019-10-10', '2022-09-18'])
 AREAS = [('Active ice', 'Clean ice', '#87cef3'), ('Debris-covered ice', 'Debris-covered ice', '#846146'),
          ('Vegetation-covered ice', 'Vegetation-covered ice', 'green'), ('Lobe', 'Lobe', 'black'),
          ('Thermo./Calving', 'Cryokarst/Calving', 'purple')]
